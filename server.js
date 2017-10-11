@@ -1,0 +1,8 @@
+const express = require('exress');
+const app = express();
+const path = require('path');
+
+app.use(express.static(path.join(__dirname)));
+
+
+app.listen(process.env.PORT || 3000);
