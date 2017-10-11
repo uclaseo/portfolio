@@ -25,7 +25,7 @@ body {
 }
 
 body {
-    font-family: 'Gloria Hallelujah', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Rubik', sans-serif, 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-vertical-center {
@@ -177,7 +177,7 @@ hr.small {
     display: table;
     width: 100%;
     height: 100%;
-    background: url(../img/engineer-wallpaper.jpg) no-repeat center center scroll;
+    background: url(../img/engineer-wallpaper.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -210,7 +210,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/callout.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -314,7 +314,7 @@ xtype
     animation: cd-pulse 1s infinite;
   }
   .cd-headline.type .cd-words-wrapper.selected {
-    background-color: #aebcb9;
+    background-color: #aebcb0;
   }
   .cd-headline.type .cd-words-wrapper.selected::after {
     visibility: hidden;
